@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="/static/styesheet2.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis:800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3ce4fce0e0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<title>Items - Home</title>
+</head>
+
+<body id="home">
+
+
+<div class="header" id="headerhome">
+<div>
+
+  <a id="logo1" onClick="window.location.href='index.html'">Logo</a></div>
+ <div class="topnav" id="topnavhome">
+   <a href="index.html" id="topa1">Home</a>
+   <a href="factory.html" id="topb1">About Us</a>
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn" id="topc1">Services <i class="fa fa-angle-down" id="productarrow"></i></a>
+     <div class="dropdown-content">
+     <div class="ddcontent">  <a href="">EMPTY</a>
+       <a href="">EMPTY</a>
+       <a href="">EMPTY</a>
+       <a href="">EMPTY</a></div>    </div>
+ </li>
+     <li class="dropdown"> <a href="" class="dropbtn" id="topd1">Partners</a>
+     <div class="dropdown-content" style="display: none;">
+       <a href=""></a>
+       <a href=""></a>
+       <a href=""></a>
+       <a href=""></a>
+       <a href=""></a>
+       <a href=""></a>
+       <a href=""></a>    </div>
+    </li>
+   <a href="" id="tope1">Contact us</a></div>
+ <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+ <a href="index.html">Home</a>
+   <a href="">About US</a>
+    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Services <i class="fa fa-angle-down" id="productarrow"></i></a>
+     <div class="dropdown-content">
+       <a href="">EMPTY SideNav</a>
+       <a href="">EMPTY SideNav</a>
+       <a href="">EMPTY SideNav</a>
+       <a href="">EMPTY SideNav</a></div>
+ </li>
+         <a href="">Partners</a>
+
+
+   <a href="">Contact us</a></div>
+
+ <div class="container44" id="container44" onClick="openNav()">
+   <div class="bar1" id="bar1"></div>
+   <div class="bar2" id="bar2"></div>
+   <div class="bar3" id="bar3"></div>
+ </div>
+ </div>
+
+
+
+<!--Search Bar-->
+
+<div class="wrap">
+   <form class="search" action="/searchPage" method="GET">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?" name="query">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </form>
+</div>
+
+
+
+
+
+
+
+
+<!--slider-->
+
+<main class="main-content">
+  <section class="slideshow">
+    <div class="slideshow-inner">
+      <div class="slides">
+        <div class="slide is-active ">
+          <div class="slide-content">
+            <div class="caption">
+              <div class="title">MAONO XLR/USB Gaming Microphone</div>
+
+
+
+              <div class="text">
+                <img src="/static/mic.png" alt="" class="productimg" />
+              </div>
+
+
+
+              <div class="text">
+                <p>Slide description 1</p>
+              </div>
+              <a href="#" class="btn">
+                <span class="btn-inner">Learn More</span>
+              </a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="/static/slidebg.jpg" alt="" class="image" />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <div class="caption">
+              <div class="title">Slide title 2</div>
+              <div class="text">
+                <p>Slide description 2</p>
+              </div>
+              <a href="#" class="btn">
+                <span class="btn-inner">Learn More</span>
+              </a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2015/07/Indispensable-4-/static/1.jpg" alt="" class="image" />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <div class="caption">
+              <div class="title">Slide title 3</div>
+              <div class="text">
+                <p>Slide description 3</p>
+              </div>
+              <a href="#" class="btn">
+                <span class="btn-inner">Learn More</span>
+              </a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/1/static/1.jpg" alt="" class="image" />
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-content">
+            <div class="caption">
+              <div class="title">Slide title 4</div>
+              <div class="text">
+                <p>Slide description 4</p>
+              </div>
+              <a href="#" class="btn">
+                <span class="btn-inner">Learn More</span>
+              </a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/20mars17-sans-typo.jpg" alt="" class="image" />
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="item is-active">
+          <span class="icon">1</span>
+        </div>
+        <div class="item">
+          <span class="icon">2</span>
+        </div>
+        <div class="item">
+          <span class="icon">3</span>
+        </div>
+        <div class="item">
+          <span class="icon">4</span>
+        </div>
+      </div>
+      <div class="arrows">
+        <div class="arrow prev">
+          <span class="svg svg-arrow-left">
+            <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+            <span class="alt sr-only"></span>
+          </span>
+        </div>
+        <div class="arrow next">
+          <span class="svg svg-arrow-right">
+            <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+            <span class="alt sr-only"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+<!--items-->
+
+<br>
+<br>
+<br>
+
+
+
+<!--Charts-->
+
+
+
+<div class="charts1">
+
+  <div class="chartsholder">
+
+  <div class="top-categories">
+    <h1>TOP CATEGORIES</h1>
+  </div>
+
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+<div class="chart1">
+<img src="/static/1.jpg" class="chartimgcat">
+<div class="bottomtextcat">
+<h1 class="h1cattext">Sound and Light Show</h1>
+<div class="pricecontent">
+ <p class="exploretxt">EXPLORE</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script>
+ function openNav() {
+   document.getElementById("mySidenav").style.width = "250px";
+ }
+
+ function closeNav() {
+   document.getElementById("mySidenav").style.width = "0";
+ }
+ </script>
+ <script>
+ // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+ window.onscroll = function() {scrollFunction()};
+
+ function scrollFunction() {
+   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+ 	document.getElementById("logo1").style.paddingTop = "12px";
+ 	document.getElementById("headerhome").style.height = "58px";
+ 	document.getElementById("headerhome").style.backgroundColor = "black";
+ 	document.getElementById("logo1").style.fontSize = "25px";
+ 	document.getElementById("logo1").style.color = "white";
+ 	document.getElementById("topnavhome").style.marginTop = "-15px";
+ 	document.getElementById("topa1").style.paddingBottom = "15px";
+ 	document.getElementById("topb1").style.paddingBottom = "15px";
+ 	document.getElementById("topc1").style.paddingBottom = "15px";
+ 	document.getElementById("topd1").style.paddingBottom = "15px";
+ 	document.getElementById("tope1").style.paddingBottom = "15px";
+ 	document.getElementById("topa1").style.color = "white";
+ 	document.getElementById("topb1").style.color = "white";
+ 	document.getElementById("topc1").style.color = "white";
+ 	document.getElementById("topd1").style.color = "white";
+ 	document.getElementById("tope1").style.color = "white";
+ 	document.getElementById("container44").style.marginTop = "10px";
+  document.getElementById("bar1").style.background = "white";
+  document.getElementById("bar2").style.background = "white";
+  document.getElementById("bar3").style.background = "white";
+
+   } else {
+ 	document.getElementById("logo1").style.paddingTop = "20px";
+ 	document.getElementById("headerhome").style.height = "88px";
+  document.getElementById("headerhome").style.backgroundColor = "transparent";
+ 	document.getElementById("logo1").style.fontSize = "35px";
+ 	document.getElementById("logo1").style.color = "black";
+ 	document.getElementById("topnavhome").style.marginTop = "0";
+ 	document.getElementById("topa1").style.paddingBottom = "30px";
+ 	document.getElementById("topb1").style.paddingBottom = "30px";
+ 	document.getElementById("topc1").style.paddingBottom = "30px";
+ 	document.getElementById("topd1").style.paddingBottom = "30px";
+ 	document.getElementById("tope1").style.paddingBottom = "30px";
+ 	document.getElementById("topa1").style.color = "black";
+ 	document.getElementById("topb1").style.color = "black";
+ 	document.getElementById("topc1").style.color = "black";
+ 	document.getElementById("topd1").style.color = "black";
+ 	document.getElementById("tope1").style.color = "black";
+ 	document.getElementById("container44").style.marginTop = "25px";
+  document.getElementById("bar1").style.background = "black";
+  document.getElementById("bar2").style.background = "black";
+  document.getElementById("bar3").style.background = "black";
+   }
+ }
+ </script>
+
+
+
+
+
+
+
+<script>
+ var slideshowDuration = 4000;
+ var slideshow=$('.main-content .slideshow');
+
+ function slideshowSwitch(slideshow,index,auto){
+   if(slideshow.data('wait')) return;
+
+   var slides = slideshow.find('.slide');
+   var pages = slideshow.find('.pagination');
+   var activeSlide = slides.filter('.is-active');
+   var activeSlideImage = activeSlide.find('.image-container');
+   var newSlide = slides.eq(index);
+   var newSlideImage = newSlide.find('.image-container');
+   var newSlideContent = newSlide.find('.slide-content');
+   var newSlideElements=newSlide.find('.caption > *');
+   if(newSlide.is(activeSlide))return;
+
+   newSlide.addClass('is-new');
+   var timeout=slideshow.data('timeout');
+   clearTimeout(timeout);
+   slideshow.data('wait',true);
+   var transition=slideshow.attr('data-transition');
+   if(transition=='fade'){
+     newSlide.css({
+       display:'block',
+       zIndex:2
+     });
+     newSlideImage.css({
+       opacity:0
+     });
+
+     TweenMax.to(newSlideImage,1,{
+       alpha:1,
+       onComplete:function(){
+         newSlide.addClass('is-active').removeClass('is-new');
+         activeSlide.removeClass('is-active');
+         newSlide.css({display:'',zIndex:''});
+         newSlideImage.css({opacity:''});
+         slideshow.find('.pagination').trigger('check');
+         slideshow.data('wait',false);
+         if(auto){
+           timeout=setTimeout(function(){
+             slideshowNext(slideshow,false,true);
+           },slideshowDuration);
+           slideshow.data('timeout',timeout);}}});
+   } else {
+     if(newSlide.index()>activeSlide.index()){
+       var newSlideRight=0;
+       var newSlideLeft='auto';
+       var newSlideImageRight=-slideshow.width()/8;
+       var newSlideImageLeft='auto';
+       var newSlideImageToRight=0;
+       var newSlideImageToLeft='auto';
+       var newSlideContentLeft='auto';
+       var newSlideContentRight=0;
+       var activeSlideImageLeft=-slideshow.width()/4;
+     } else {
+       var newSlideRight='';
+       var newSlideLeft=0;
+       var newSlideImageRight='auto';
+       var newSlideImageLeft=-slideshow.width()/8;
+       var newSlideImageToRight='';
+       var newSlideImageToLeft=0;
+       var newSlideContentLeft=0;
+       var newSlideContentRight='auto';
+       var activeSlideImageLeft=slideshow.width()/4;
+     }
+
+     newSlide.css({
+       display:'block',
+       width:0,
+       right:newSlideRight,
+       left:newSlideLeft
+       ,zIndex:2
+     });
+
+     newSlideImage.css({
+       width:slideshow.width(),
+       right:newSlideImageRight,
+       left:newSlideImageLeft
+     });
+
+     newSlideContent.css({
+       width:slideshow.width(),
+       left:newSlideContentLeft,
+       right:newSlideContentRight
+     });
+
+     activeSlideImage.css({
+       left:0
+     });
+
+     TweenMax.set(newSlideElements,{y:20,force3D:true});
+     TweenMax.to(activeSlideImage,1,{
+       left:activeSlideImageLeft,
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.to(newSlide,1,{
+       width:slideshow.width(),
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.to(newSlideImage,1,{
+       right:newSlideImageToRight,
+       left:newSlideImageToLeft,
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.staggerFromTo(newSlideElements,0.8,{alpha:0,y:60},{alpha:1,y:0,ease:Power3.easeOut,force3D:true,delay:0.6},0.1,function(){
+       newSlide.addClass('is-active').removeClass('is-new');
+       activeSlide.removeClass('is-active');
+       newSlide.css({
+         display:'',
+         width:'',
+         left:'',
+         zIndex:''
+       });
+
+       newSlideImage.css({
+         width:'',
+         right:'',
+         left:''
+       });
+
+       newSlideContent.css({
+         width:'',
+         left:''
+       });
+
+       newSlideElements.css({
+         opacity:'',
+         transform:''
+       });
+
+       activeSlideImage.css({
+         left:''
+       });
+
+       slideshow.find('.pagination').trigger('check');
+       slideshow.data('wait',false);
+       if(auto){
+         timeout=setTimeout(function(){
+           slideshowNext(slideshow,false,true);
+         },slideshowDuration);
+         slideshow.data('timeout',timeout);
+       }
+     });
+   }
+ }
+
+ function slideshowNext(slideshow,previous,auto){
+   var slides=slideshow.find('.slide');
+   var activeSlide=slides.filter('.is-active');
+   var newSlide=null;
+   if(previous){
+     newSlide=activeSlide.prev('.slide');
+     if(newSlide.length === 0) {
+       newSlide=slides.last();
+     }
+   } else {
+     newSlide=activeSlide.next('.slide');
+     if(newSlide.length==0)
+       newSlide=slides.filter('.slide').first();
+   }
+
+   slideshowSwitch(slideshow,newSlide.index(),auto);
+ }
+
+ function homeSlideshowParallax(){
+   var scrollTop=$(window).scrollTop();
+   if(scrollTop>windowHeight) return;
+   var inner=slideshow.find('.slideshow-inner');
+   var newHeight=windowHeight-(scrollTop/2);
+   var newTop=scrollTop*0.8;
+
+   inner.css({
+     transform:'translateY('+newTop+'px)',height:newHeight
+   });
+ }
+
+ $(document).ready(function() {
+  $('.slide').addClass('is-loaded');
+
+  $('.slideshow .arrows .arrow').on('click',function(){
+   slideshowNext($(this).closest('.slideshow'),$(this).hasClass('prev'));
+ });
+
+  $('.slideshow .pagination .item').on('click',function(){
+   slideshowSwitch($(this).closest('.slideshow'),$(this).index());
+ });
+
+  $('.slideshow .pagination').on('check',function(){
+   var slideshow=$(this).closest('.slideshow');
+   var pages=$(this).find('.item');
+   var index=slideshow.find('.slides .is-active').index();
+   pages.removeClass('is-active');
+   pages.eq(index).addClass('is-active');
+ });
+
+ /* Lazyloading
+ $('.slideshow').each(function(){
+   var slideshow=$(this);
+   var images=slideshow.find('.image').not('.is-loaded');
+   images.on('loaded',function(){
+     var image=$(this);
+     var slide=image.closest('.slide');
+     slide.addClass('is-loaded');
+   });
+ */
+
+ var timeout=setTimeout(function(){
+   slideshowNext(slideshow,false,true);
+ },slideshowDuration);
+
+ slideshow.data('timeout',timeout);
+ });
+
+ if($('.main-content .slideshow').length > 1) {
+   $(window).on('scroll',homeSlideshowParallax);
+ }
+
+</script>
+
+
+
+
+
+
+
+
+ </body>
+ </html>

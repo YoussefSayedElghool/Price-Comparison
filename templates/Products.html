@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/static/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="/static/css/style.css"> <!-- Resource style -->
+	<script src="/static/js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="/static/styesheet2.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis:800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3ce4fce0e0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+	<script src="/static/js/jquery-2.1.1.js"></script>
+	<script src="/static/js/jquery.mixitup.min.js"></script>
+	<script src="/static/js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+	<title>Products</title>
+</head>
+
+	<body id="home">
+
+		<div class="header" id="headerhome">
+			
+
+			<a id="logo1" onClick="window.location.href='/'"><img class="logowb"></a></div>
+			<div class="topnav" id="topnavhome">
+	   
+			  <a href="/" id="topa1">Home</a>
+			   <li class="dropdown"> <a href="/wishlist" class="dropbtn" id="topc1">Whishlist <i class="fa fa-angle-down" id="productarrow"></i></a>
+				<div class="dropdown-content" id="dropdown-content1">
+				<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+						<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+							<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+								<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+			  </li>
+	   
+			  <a href="/" id="tope1">About us</a>
+	   
+	   
+	   
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn" id="topd1">
+						<ul class="notification-drop">
+							<li class="item">
+							  <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button ">4</span>
+							</li>
+						  </ul>
+				  </a>
+				   <div class="dropdown-content" id="dropdown-content2">
+				   <div class="ddcontent">
+					 <a href="">EMPTY</a>
+					   <a href="">EMPTY</a>
+					   <a href="">EMPTY</a>
+					   <a href="">EMPTY</a></div>    </div>
+			   </li>
+	   
+	   
+			   <li class="dropdown">
+				   <a href="javascript:void(0)" class="dropbtn" id="topf1">
+					   <ul class="notification-drop">
+							<li class="item">
+								<i class="fa fa-sign-out" aria-hidden="true"></i>
+							</li>
+						</ul>
+				   </a>
+				<div class="dropdown-content" id="dropdown-content3">
+				<div>  <a href="">{{email}}</a>
+					<a href="/logout">Log Out</a>
+					</div>
+				 </div>
+			</li>
+			</div>
+	   
+	   
+	   <!--Start od Sidenav-->
+	   
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+			<a href="index.html">Home</a>
+			   <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Whishlist <i class="fa fa-angle-down" id="productarrow"></i></a>
+				<div class="dropdown-content">
+						<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+							<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+								<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+									<div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+					</div>
+			   </li>
+	   
+			  <a href="">About us</a></div>
+	   
+	   
+	   
+	   
+	   <div class="responsive-icons" id="resp">
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn" id="topd2">
+						<ul class="notification-drop">
+							<li class="item">
+							  <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button ">4</span>
+							</li>
+						  </ul>
+				  </a>
+				   <div class="dropdown-content" id="dropdown-content2">
+				   <div class="ddcontent">
+					 <a href="">EMPTY</a>
+					   <a href="">EMPTY</a>
+					   <a href="">EMPTY</a>
+					   <a href="">EMPTY</a></div>    </div>
+			   </li>
+	   
+	   
+			   <li class="dropdown">
+				   <a href="javascript:void(0)" class="dropbtn" id="topf2">
+					   <ul class="notification-drop">
+							<li class="item">
+								<i class="fa fa-sign-out" aria-hidden="true"></i>
+							</li>
+						</ul>
+				   </a>
+				<div class="dropdown-content" id="dropdown-content3">
+				<div>  <a href="">{{email}}</a>
+					<a href="/logout">Log Out</a>
+					</div>
+				 </div>
+			</li>
+	   </div>
+	   
+			<div class="container44" id="container44" onClick="openNav()">
+			  <div class="bar1" id="bar1"></div>
+			  <div class="bar2" id="bar2"></div>
+			  <div class="bar3" id="bar3"></div>
+			</div>
+			</div>
+	   
+	   
+	   <br>
+	   
+	   
+	   <!--End od Sidenav-->	
+		<!--Search Bar-->
+
+
+		<div class="wrap">
+			<form class="search" action="/searchPage" method="GET">
+				<input type="text" class="searchTerm" placeholder="What are you looking for?" id="query" name="query" value="{{ query }}">
+				<button type="submit" class="searchButton">
+				  <i class="fa fa-search"></i>
+			   </button>
+			 </form>
+		  </div>
+		  
+		<!-- <div class="wrap">
+			<div class="search">
+				<input type="text" class="searchTerm" placeholder="What are you looking for?" id="query"
+					value="{{ query }}">
+				<button type="submit" class="searchButton">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div> -->
+
+		
+		<br>
+
+		<main class="cd-main-content">
+			<div class="cd-tab-filter-wrapper">
+				<div class="cd-tab-filter">
+
+				</div> <!-- cd-tab-filter -->
+			</div> <!-- cd-tab-filter-wrapper -->
+
+			<section class="cd-gallery">
+
+				<div id="proudectContainer" style="
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: flex-start;
+					flex-direction: row;
+">
+
+
+				</div>
+
+
+				<!-- 			
+			<ul>
+
+				<li class="mix check1 radio2 option3">
+					        <div class="product-card">
+					            <div class="badge">New Product</div>
+					            <div class="product-thumb">
+					                <img src="/static/1.jpg">
+					            </div>
+					            <div class="product-details">
+												<div class="Stars" style="--rating: 4;"></div>
+					                <span class="product-category">T-Shirt</span>
+					                <h4><a href="#">New T-Shirt For Man</a></h4>
+					                <p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					                <div class="product-bottom-details">
+					                    <div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+					                    <div class="product-links">
+					                        <a href="#"><i class="fa fa-heart"></i></a>
+					                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+					                    </div>
+					                </div>
+					            </div>
+					        </div>
+			</li>
+
+			<li class="mix check1 radio2 option3">
+				<div class="product-card">
+						<div class="badge">New Product</div>
+						<div class="product-thumb">
+								<img src="/static/1.jpg">
+						</div>
+						<div class="product-details">
+							<div class="Stars" style="--rating: 4;"></div>
+								<span class="product-category">T-Shirt</span>
+								<h4><a href="#">New T-Shirt For Man</a></h4>
+								<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+								<div class="product-bottom-details">
+										<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+										<div class="product-links">
+												<a href="#"><i class="fa fa-heart"></i></a>
+												<a href="#"><i class="fa fa-shopping-cart"></i></a>
+										</div>
+								</div>
+						</div>
+				</div>
+		</li>
+
+		<li class="mix check1 radio2 option3">
+			<div class="product-card">
+					<div class="badge">New Product</div>
+					<div class="product-thumb">
+							<img src="/static/1.jpg">
+					</div>
+					<div class="product-details">
+						<div class="Stars" style="--rating: 4;"></div>
+							<span class="product-category">T-Shirt</span>
+							<h4><a href="#">New T-Shirt For Man</a></h4>
+							<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+							<div class="product-bottom-details">
+									<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+									<div class="product-links">
+											<a href="#"><i class="fa fa-heart"></i></a>
+											<a href="#"><i class="fa fa-shopping-cart"></i></a>
+									</div>
+							</div>
+					</div>
+			</div>
+	</li>
+
+
+
+	<li class="mix check1 radio2 option3">
+		<div class="product-card">
+				<div class="badge">New Product</div>
+				<div class="product-thumb">
+						<img src="/static/1.jpg">
+				</div>
+				<div class="product-details">
+					<div class="Stars" style="--rating: 4;"></div>
+						<span class="product-category">T-Shirt</span>
+						<h4><a href="#">New T-Shirt For Man</a></h4>
+						<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+						<div class="product-bottom-details">
+								<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+								<div class="product-links">
+										<a href="#"><i class="fa fa-heart"></i></a>
+										<a href="#"><i class="fa fa-shopping-cart"></i></a>
+								</div>
+						</div>
+				</div>
+		</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+
+<li class="mix check1 radio2 option3">
+	<div class="product-card">
+			<div class="badge">New Product</div>
+			<div class="product-thumb">
+					<img src="/static/1.jpg">
+			</div>
+			<div class="product-details">
+				<div class="Stars" style="--rating: 4;"></div>
+					<span class="product-category">T-Shirt</span>
+					<h4><a href="#">New T-Shirt For Man</a></h4>
+					<p>New Import T-Shirt For Man Very Rare Collection, If You Want Order Right Now</p>
+					<div class="product-bottom-details">
+							<div class="product-price"><small>$15.10</small><p id="orange">$7.99</p></div>
+							<div class="product-links">
+									<a href="#"><i class="fa fa-heart"></i></a>
+									<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							</div>
+					</div>
+			</div>
+	</div>
+</li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+ -->
+
+
+				<div class="cd-fail-message">No results found</div>
+			</section> <!-- cd-gallery -->
+
+			<div class="cd-filter">
+				<form>
+
+
+					<div class="cd-filter-block">
+
+
+						<h4>Select Rating</h4>
+
+						<ul class="cd-filter-content cd-filters list">
+
+
+							<div class="your-review">
+								<input type="radio" name="your-review" id="rating-5">
+								<label for="rating-5"></label>
+								<input type="radio" name="your-review" id="rating-4">
+								<label for="rating-4"></label>
+								<input type="radio" name="your-review" id="rating-3">
+								<label for="rating-3"></label>
+								<input type="radio" name="your-review" id="rating-2">
+								<label for="rating-2"></label>
+								<input type="radio" name="your-review" id="rating-1">
+								<label for="rating-1"></label>
+							</div>
+
+
+
+						</ul> <!-- cd-filter-content -->
+
+
+						<h4>Select Size</h4>
+
+						<ul class="cd-filter-content cd-filters list">
+							<li>
+								<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+								<label class="checkbox-label" for="checkbox1">Small</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+								<label class="checkbox-label" for="checkbox2">Medium</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+								<label class="checkbox-label" for="checkbox3">Large</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check4" type="checkbox" id="checkbox4">
+								<label class="checkbox-label" for="checkbox4">X-Lrge</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check5" type="checkbox" id="checkbox3">
+								<label class="checkbox-label" for="checkbox3">2X-Large</label>
+							</li>
+
+						</ul> <!-- cd-filter-content -->
+					</div> <!-- cd-filter-block -->
+
+
+
+					<div class="cd-filter-block">
+						<h4>Select Color</h4>
+
+						<ul class="cd-filter-content cd-filters list">
+							<li>
+								<input class="filter" data-filter=".check5" type="checkbox" id="checkbox5">
+								<label class="checkbox-label" for="checkbox5">Black</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check6" type="checkbox" id="checkbox6">
+								<label class="checkbox-label" for="checkbox6">White</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check7" type="checkbox" id="checkbox7">
+								<label class="checkbox-label" for="checkbox7">Grey</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check8" type="checkbox" id="checkbox8">
+								<label class="checkbox-label" for="checkbox8">Blue</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check9" type="checkbox" id="checkbox9">
+								<label class="checkbox-label" for="checkbox9">Green</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check10" type="checkbox" id="checkbox10">
+								<label class="checkbox-label" for="checkbox10">Red</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".check11" type="checkbox" id="checkbox11">
+								<label class="checkbox-label" for="checkbox11">Yellow</label>
+							</li>
+
+						</ul> <!-- cd-filter-content -->
+					</div> <!-- cd-filter-block -->
+
+
+
+
+
+
+
+					<div class="cd-filter-block">
+						<h4>Select Price</h4>
+
+						<div class="cd-filter-content">
+							<div class="cd-select cd-filters">
+								<select class="filter" name="selectThis" id="selectThis">
+									<option value="">Choose an option</option>
+									<option value=".option1">Under $25</option>
+									<option value=".option2">$25–$50</option>
+									<option value=".option3">$50–$250</option>
+									<option value=".option4">$250–$600</option>
+									<option value=".option5">Above $600</option>
+								</select>
+							</div> <!-- cd-select -->
+						</div> <!-- cd-filter-content -->
+					</div> <!-- cd-filter-block -->
+
+					<div class="cd-filter-block">
+						<h4>Gender</h4>
+
+						<ul class="cd-filter-content cd-filters list">
+							<li>
+								<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1"
+									checked>
+								<label class="radio-label" for="radio1">All</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+								<label class="radio-label" for="radio2">Men</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+								<label class="radio-label" for="radio3">Women</label>
+							</li>
+
+							<li>
+								<input class="filter" data-filter=".radio4" type="radio" name="radioButton" id="radio4">
+								<label class="radio-label" for="radio4">Kids</label>
+							</li>
+
+						</ul> <!-- cd-filter-content -->
+						<br>
+						<br>
+						<br>
+					</div> <!-- cd-filter-block -->
+					<br>
+					<br>
+					<br>
+				</form>
+
+				<a href="#0" class="cd-close">Close</a>
+			</div> <!-- cd-filter -->
+
+			<a href="#0" class="cd-filter-trigger">Filters</a>
+		</main> <!-- cd-main-content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="notification">
+			<div class="notification-header">
+				<h2 class="notification-title">New notification</h2>
+				<i class="fa fa-times notification-close"></i>
+			</div>
+			<div class="notification-container">
+				<div class="notification-media">
+					<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+						alt="" class="notification-user-avatar">
+				</div>
+				<div class="notification-content">
+					<p class="notification-text">
+					<h4>The item in your wishlist is back in stock! Hurry and grab it before it's gone again.</h4>
+					</p>
+					<span class="notification-timer">a few seconds ago</span>
+				</div>
+				<span class="notification-status"></span>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+		 
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+			</script>
+			  <script>
+			  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+			  window.onscroll = function() {scrollFunction()};
+		 
+			  function scrollFunction() {
+				if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+				  document.getElementById("headerhome").style.height = "58px";
+				  document.getElementById("headerhome").style.backgroundColor = "black";
+				  document.getElementById("logo1").style.backgroundSize = "60px";
+				 document.getElementById("logo1").style.marginTop = "5px";
+				  document.getElementById("logo1").style.backgroundImage = "url('/static/whitelogo.png')";
+				  document.getElementById("topnavhome").style.marginTop = "-15px";
+				  document.getElementById("topa1").style.paddingBottom = "15px";
+				  document.getElementById("topc1").style.paddingBottom = "22px";
+				  document.getElementById("topd1").style.paddingBottom = "11px";
+				 document.getElementById("topf1").style.paddingBottom = "11px";
+				  document.getElementById("tope1").style.paddingBottom = "15px";
+				 document.getElementById("resp").style.marginTop = "2%";
+				  document.getElementById("topa1").style.color = "white";
+				  document.getElementById("topc1").style.color = "white";
+				  document.getElementById("topd1").style.color = "white";
+				 document.getElementById("topd2").style.color = "white";
+				 document.getElementById("topf2").style.color = "white";
+				  document.getElementById("tope1").style.color = "white";
+				 document.getElementById("topf1").style.color = "white";
+				  document.getElementById("container44").style.marginTop = "10px";
+			   document.getElementById("bar1").style.background = "white";
+			   document.getElementById("bar2").style.background = "white";
+			   document.getElementById("bar3").style.background = "white";
+				} else {
+				  document.getElementById("headerhome").style.height = "88px";
+			   document.getElementById("headerhome").style.backgroundColor = "transparent";
+				  document.getElementById("logo1").style.backgroundSize = "105px";
+				 document.getElementById("logo1").style.marginTop = "-10px";
+				  document.getElementById("logo1").style.backgroundImage = "url('/static/blacklogo.png')";
+				  document.getElementById("topnavhome").style.marginTop = "0";
+				  document.getElementById("topa1").style.paddingBottom = "30px";
+				  document.getElementById("topc1").style.paddingBottom = "39px";
+				  document.getElementById("topd1").style.paddingBottom = "29px";
+				 document.getElementById("topf1").style.paddingBottom = "29px";
+				  document.getElementById("tope1").style.paddingBottom = "30px";
+				 document.getElementById("resp").style.marginTop = "4.7%";
+				  document.getElementById("topa1").style.color = "black";
+				  document.getElementById("topc1").style.color = "black";
+				  document.getElementById("topd1").style.color = "black";
+				 document.getElementById("topd2").style.color = "black";
+				 document.getElementById("topf2").style.color = "black";
+				  document.getElementById("tope1").style.color = "black";
+				 document.getElementById("topf1").style.color = "black";
+				  document.getElementById("container44").style.marginTop = "25px";
+			   document.getElementById("bar1").style.background = "black";
+			   document.getElementById("bar2").style.background = "black";
+			   document.getElementById("bar3").style.background = "black";
+				}
+			  }
+			  </script>
+		 
+		 
+		 
+		
+
+		<script>
+
+			
+		var items = document.querySelectorAll('.notification-drop .item');
+
+		items.forEach(function(item) {
+			item.addEventListener('click', function() {
+				var ul = item.querySelector('ul');
+				if (ul) {
+					ul.style.display = ul.style.display === 'none' ? 'block' : 'none';
+				}
+			});
+		});
+
+
+
+		</script>
+
+
+
+
+		<script>
+		</script>
+
+
+
+
+
+
+<script>
+
+
+
+	var query = document.getElementById("query").value;
+	var proudectContainer = document.getElementById("proudectContainer");
+
+	async function logJSONData(Search_Word) {
+		const response = await fetch(`http://127.0.0.1:5678/api/search/${Search_Word}`);
+		const MyData = await response.json();
+		proudectContainer.innerHTML = "";
+
+		for (let i = 0; i < MyData.length; i++) {
+
+			let name = MyData[i]['p_name'];
+			let img = MyData[i]['p_img'];
+			let link = MyData[i]['p_link'];
+			let disc_price = MyData[i]['p_disc_price'];
+			let base_price = MyData[i]['p_base_price'];
+			let rating = MyData[i]['p_rating'];
+			let stars = MyData[i]['p_stars'];
+			let source = MyData[i]['source'];
+
+			proudect = `
+					<div class="product-card" style="
+					max-width: 100%;
+					position: relative;
+					box-shadow: 0 2px 5px #333;
+					margin: 0.5%;
+					background: white;
+					width: 240px;
+					">
+						<div class="badge">${source}</div>
+						<div class="product-thumb">
+							<img src="${img}">
+						</div>
+						<div class="product-details">
+										<div class="Stars" style="--rating: ${stars};"></div>
+							<span class="product-category">${name}</span>
+							<div class="product-bottom-details">
+								<div class="product-price"><small>${base_price}$</small><p id="orange">${disc_price}$</p></div>
+								<div class="product-links">
+									<a href="${link}"><i class="fa fa-shopping-cart"></i></a>	
+									<div onclick="addTowishList(${i})"><i class="fa fa-heart" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+	`
+
+			proudectContainer.innerHTML += proudect;
+
+		}
+
+		return MyData;
+	}
+
+
+	// var adToWishList = document.getElementById("adToWishList");
+	let seacheResult ={} 
+	
+	logJSONData(query).then(function (response) {
+				seacheResult = response
+	 			console.log(seacheResult);
+
+			});
+
+	
+	function addTowishList(i) {
+
+		let name = seacheResult[i]['p_name'];
+		let image = seacheResult[i]['p_img'];
+		let link = seacheResult[i]['p_link'];
+		let disc_price = seacheResult[i]['p_disc_price'];
+		let base_price = seacheResult[i]['p_base_price'];
+		let rating = seacheResult[i]['p_rating'];
+		let stars = seacheResult[i]['p_stars'];
+		let source = seacheResult[i]['source'];
+
+		var mybody = JSON.stringify({
+				name: name,
+				image: image,
+				link: link,
+				price: base_price,
+				rating: rating,
+				stars: stars,
+				source: source
+			})
+		console.log(mybody);
+
+		fetch("http://127.0.0.1:5678/api/cart", {
+			method: "POST",
+			body: mybody,
+			headers: {
+				"Content-type": "application/json; charset=UTF-8",
+			},
+		})
+			.then(function (data) {
+				console.log(data);
+			})
+			.catch(function (error) {
+				console.error("Error:", error);
+			});
+	}
+</script>
+
+
+
+
+
+
+
+	</body>
+
+</html>

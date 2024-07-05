@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="/static/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="/static/css/reset.css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="/static/styesheet2.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis:800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3ce4fce0e0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <script src="/static/js/modernizr.js"></script> <!-- Modernizr -->
+
+	<script src="/static/js/jquery-2.1.1.js"></script>
+	<script src="/static/js/jquery.mixitup.min.js"></script>
+	<script src="/static/js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+
+	<title>Whishlist</title>
+
+
+</head>
+<body>
+	<body id="home" style="background-color: #e7e7e7;">
+
+
+	<div class="header" id="headerhome">
+	<div>
+
+
+	
+		<a id="logo1" onClick="window.location.href='/'"><img class="logowb"></a></div>
+	 <div class="topnav" id="topnavhome">
+
+	   <a href="/" id="topa1">Home</a>
+	    <li class="dropdown"> <a href="/wishlist" class="dropbtn" id="topc1">Whishlist <i class="fa fa-angle-down" id="productarrow"></i></a>
+	     <div class="dropdown-content" id="dropdown-content1">
+	     <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+				 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+					 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+						 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon"></a>
+  	 </li>
+
+	   <a href="/" id="tope1">About us</a>
+
+
+
+		 <li class="dropdown">
+			 <a href="javascript:void(0)" class="dropbtn" id="topd1">
+				 <ul class="notification-drop">
+		 		    <li class="item">
+		 		      <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button ">4</span>
+		 		    </li>
+		 		  </ul>
+		   </a>
+			<div class="dropdown-content" id="dropdown-content2">
+			<div class="ddcontent">
+			  <a href="">EMPTY</a>
+				<a href="">EMPTY</a>
+				<a href="">EMPTY</a>
+				<a href="">EMPTY</a></div>    </div>
+		</li>
+
+
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" id="topf1">
+				<ul class="notification-drop">
+					 <li class="item">
+						 <i class="fa fa-sign-out" aria-hidden="true"></i>
+					 </li>
+				 </ul>
+			</a>
+		 <div class="dropdown-content" id="dropdown-content3">
+		 <div>  <a href="">{{email}}</a>
+			 <a href="/logout">Log Out</a>
+			 </div>
+		  </div>
+	 </li>
+	 </div>
+
+
+<!--Start od Sidenav-->
+
+	 <div id="mySidenav" class="sidenav">
+	   <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+	 <a href="index.html">Home</a>
+	    <li class="dropdown"> <a href="javascript:void(0)" class="dropbtn">Whishlist <i class="fa fa-angle-down" id="productarrow"></i></a>
+	     <div class="dropdown-content">
+				 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+					 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+						 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+							 <div>  <a href=""><p>Name</p><img src="1.jpg" class="whishicon" id="wishiconsidenav"></a>
+			 </div>
+   	 </li>
+
+	   <a href="">About us</a></div>
+
+
+
+
+<div class="responsive-icons" id="resp">
+		 <li class="dropdown">
+			 <a href="javascript:void(0)" class="dropbtn" id="topd2">
+				 <ul class="notification-drop">
+		 		    <li class="item">
+		 		      <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button ">4</span>
+		 		    </li>
+		 		  </ul>
+		   </a>
+			<div class="dropdown-content" id="dropdown-content2">
+			<div class="ddcontent">
+			  <a href="">EMPTY</a>
+				<a href="">EMPTY</a>
+				<a href="">EMPTY</a>
+				<a href="">EMPTY</a></div>    </div>
+		</li>
+
+
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn" id="topf2">
+				<ul class="notification-drop">
+					 <li class="item">
+						 <i class="fa fa-sign-out" aria-hidden="true"></i>
+					 </li>
+				 </ul>
+			</a>
+		 <div class="dropdown-content" id="dropdown-content3">
+		 <div>  <a href="">account@gmail.com</a>
+			 <a href="">Log Out</a>
+			 </div>
+		  </div>
+	 </li>
+</div>
+
+	 <div class="container44" id="container44" onClick="openNav()">
+	   <div class="bar1" id="bar1"></div>
+	   <div class="bar2" id="bar2"></div>
+	   <div class="bar3" id="bar3"></div>
+	 </div>
+	 </div>
+
+
+<br>
+
+
+<!--End od Sidenav-->
+
+
+
+
+	 <br>
+	 <br>
+	 <br>
+ 
+	 <!-- customers -->
+	 <div class="customers">
+		<h1 class="wish-title"><strong>My Wishlist </strong><i class="fa fa-heart-o"></i></h1>
+	</div>
+	  <tr>
+	
+		
+	<table id="customers" class="customers">
+	
+	
+	  <tr>
+		<th></th>
+		<th>Product Name</th>
+		<th>Unit Price</th>
+		<th>Stock Status</th>
+		<th>Action</th>
+	  </tr>
+	
+	  <!-- <tr>
+		<td>
+		  <div class="wish-item">
+			<i class="fa fa-trash-o"></i>
+			<img src="tshirt.jpg" class="wish-item-img">
+		</td>
+		<td class="wish-text">T-shirt</td>
+		<td class="wish-text">$ 20</td>
+		<td class="wish-text">In Stock</td>
+		<td>
+		  <button class="wish-button">
+	Buy
+	</button>
+		</td>
+	  </tr> -->
+	
+	
+	
+	</table>
+	
+	
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+ 
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+	  <script>
+	  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+	  window.onscroll = function() {scrollFunction()};
+ 
+	  function scrollFunction() {
+		if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		  document.getElementById("headerhome").style.height = "58px";
+		  document.getElementById("headerhome").style.backgroundColor = "black";
+		  document.getElementById("logo1").style.backgroundSize = "60px";
+		 document.getElementById("logo1").style.marginTop = "5px";
+		  document.getElementById("logo1").style.backgroundImage = "url('/static/whitelogo.png')";
+		  document.getElementById("topnavhome").style.marginTop = "-15px";
+		  document.getElementById("topa1").style.paddingBottom = "15px";
+		  document.getElementById("topc1").style.paddingBottom = "22px";
+		  document.getElementById("topd1").style.paddingBottom = "11px";
+		 document.getElementById("topf1").style.paddingBottom = "11px";
+		  document.getElementById("tope1").style.paddingBottom = "15px";
+		 document.getElementById("resp").style.marginTop = "2%";
+		  document.getElementById("topa1").style.color = "white";
+		  document.getElementById("topc1").style.color = "white";
+		  document.getElementById("topd1").style.color = "white";
+		 document.getElementById("topd2").style.color = "white";
+		 document.getElementById("topf2").style.color = "white";
+		  document.getElementById("tope1").style.color = "white";
+		 document.getElementById("topf1").style.color = "white";
+		  document.getElementById("container44").style.marginTop = "10px";
+	   document.getElementById("bar1").style.background = "white";
+	   document.getElementById("bar2").style.background = "white";
+	   document.getElementById("bar3").style.background = "white";
+		} else {
+		  document.getElementById("headerhome").style.height = "88px";
+	   document.getElementById("headerhome").style.backgroundColor = "transparent";
+		  document.getElementById("logo1").style.backgroundSize = "105px";
+		 document.getElementById("logo1").style.marginTop = "-10px";
+		  document.getElementById("logo1").style.backgroundImage = "url('/static/blacklogo.png')";
+		  document.getElementById("topnavhome").style.marginTop = "0";
+		  document.getElementById("topa1").style.paddingBottom = "30px";
+		  document.getElementById("topc1").style.paddingBottom = "39px";
+		  document.getElementById("topd1").style.paddingBottom = "29px";
+		 document.getElementById("topf1").style.paddingBottom = "29px";
+		  document.getElementById("tope1").style.paddingBottom = "30px";
+		 document.getElementById("resp").style.marginTop = "4.7%";
+		  document.getElementById("topa1").style.color = "black";
+		  document.getElementById("topc1").style.color = "black";
+		  document.getElementById("topd1").style.color = "black";
+		 document.getElementById("topd2").style.color = "black";
+		 document.getElementById("topf2").style.color = "black";
+		  document.getElementById("tope1").style.color = "black";
+		 document.getElementById("topf1").style.color = "black";
+		  document.getElementById("container44").style.marginTop = "25px";
+	   document.getElementById("bar1").style.background = "black";
+	   document.getElementById("bar2").style.background = "black";
+	   document.getElementById("bar3").style.background = "black";
+		}
+	  }
+	  </script>
+ 
+ 
+ 
+
+
+
+
+<script>
+ var slideshowDuration = 4000;
+ var slideshow=$('.main-content .slideshow');
+
+ function slideshowSwitch(slideshow,index,auto){
+   if(slideshow.data('wait')) return;
+
+   var slides = slideshow.find('.slide');
+   var pages = slideshow.find('.pagination');
+   var activeSlide = slides.filter('.is-active');
+   var activeSlideImage = activeSlide.find('.image-container');
+   var newSlide = slides.eq(index);
+   var newSlideImage = newSlide.find('.image-container');
+   var newSlideContent = newSlide.find('.slide-content');
+   var newSlideElements=newSlide.find('.caption > *');
+   if(newSlide.is(activeSlide))return;
+
+   newSlide.addClass('is-new');
+   var timeout=slideshow.data('timeout');
+   clearTimeout(timeout);
+   slideshow.data('wait',true);
+   var transition=slideshow.attr('data-transition');
+   if(transition=='fade'){
+     newSlide.css({
+       display:'block',
+       zIndex:2
+     });
+     newSlideImage.css({
+       opacity:0
+     });
+
+     TweenMax.to(newSlideImage,1,{
+       alpha:1,
+       onComplete:function(){
+         newSlide.addClass('is-active').removeClass('is-new');
+         activeSlide.removeClass('is-active');
+         newSlide.css({display:'',zIndex:''});
+         newSlideImage.css({opacity:''});
+         slideshow.find('.pagination').trigger('check');
+         slideshow.data('wait',false);
+         if(auto){
+           timeout=setTimeout(function(){
+             slideshowNext(slideshow,false,true);
+           },slideshowDuration);
+           slideshow.data('timeout',timeout);}}});
+   } else {
+     if(newSlide.index()>activeSlide.index()){
+       var newSlideRight=0;
+       var newSlideLeft='auto';
+       var newSlideImageRight=-slideshow.width()/8;
+       var newSlideImageLeft='auto';
+       var newSlideImageToRight=0;
+       var newSlideImageToLeft='auto';
+       var newSlideContentLeft='auto';
+       var newSlideContentRight=0;
+       var activeSlideImageLeft=-slideshow.width()/4;
+     } else {
+       var newSlideRight='';
+       var newSlideLeft=0;
+       var newSlideImageRight='auto';
+       var newSlideImageLeft=-slideshow.width()/8;
+       var newSlideImageToRight='';
+       var newSlideImageToLeft=0;
+       var newSlideContentLeft=0;
+       var newSlideContentRight='auto';
+       var activeSlideImageLeft=slideshow.width()/4;
+     }
+
+     newSlide.css({
+       display:'block',
+       width:0,
+       right:newSlideRight,
+       left:newSlideLeft
+       ,zIndex:2
+     });
+
+     newSlideImage.css({
+       width:slideshow.width(),
+       right:newSlideImageRight,
+       left:newSlideImageLeft
+     });
+
+     newSlideContent.css({
+       width:slideshow.width(),
+       left:newSlideContentLeft,
+       right:newSlideContentRight
+     });
+
+     activeSlideImage.css({
+       left:0
+     });
+
+     TweenMax.set(newSlideElements,{y:20,force3D:true});
+     TweenMax.to(activeSlideImage,1,{
+       left:activeSlideImageLeft,
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.to(newSlide,1,{
+       width:slideshow.width(),
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.to(newSlideImage,1,{
+       right:newSlideImageToRight,
+       left:newSlideImageToLeft,
+       ease:Power3.easeInOut
+     });
+
+     TweenMax.staggerFromTo(newSlideElements,0.8,{alpha:0,y:60},{alpha:1,y:0,ease:Power3.easeOut,force3D:true,delay:0.6},0.1,function(){
+       newSlide.addClass('is-active').removeClass('is-new');
+       activeSlide.removeClass('is-active');
+       newSlide.css({
+         display:'',
+         width:'',
+         left:'',
+         zIndex:''
+       });
+
+       newSlideImage.css({
+         width:'',
+         right:'',
+         left:''
+       });
+
+       newSlideContent.css({
+         width:'',
+         left:''
+       });
+
+       newSlideElements.css({
+         opacity:'',
+         transform:''
+       });
+
+       activeSlideImage.css({
+         left:''
+       });
+
+       slideshow.find('.pagination').trigger('check');
+       slideshow.data('wait',false);
+       if(auto){
+         timeout=setTimeout(function(){
+           slideshowNext(slideshow,false,true);
+         },slideshowDuration);
+         slideshow.data('timeout',timeout);
+       }
+     });
+   }
+ }
+
+ function slideshowNext(slideshow,previous,auto){
+   var slides=slideshow.find('.slide');
+   var activeSlide=slides.filter('.is-active');
+   var newSlide=null;
+   if(previous){
+     newSlide=activeSlide.prev('.slide');
+     if(newSlide.length === 0) {
+       newSlide=slides.last();
+     }
+   } else {
+     newSlide=activeSlide.next('.slide');
+     if(newSlide.length==0)
+       newSlide=slides.filter('.slide').first();
+   }
+
+   slideshowSwitch(slideshow,newSlide.index(),auto);
+ }
+
+ function homeSlideshowParallax(){
+   var scrollTop=$(window).scrollTop();
+   if(scrollTop>windowHeight) return;
+   var inner=slideshow.find('.slideshow-inner');
+   var newHeight=windowHeight-(scrollTop/2);
+   var newTop=scrollTop*0.8;
+
+   inner.css({
+     transform:'translateY('+newTop+'px)',height:newHeight
+   });
+ }
+
+ $(document).ready(function() {
+  $('.slide').addClass('is-loaded');
+
+  $('.slideshow .arrows .arrow').on('click',function(){
+   slideshowNext($(this).closest('.slideshow'),$(this).hasClass('prev'));
+ });
+
+  $('.slideshow .pagination .item').on('click',function(){
+   slideshowSwitch($(this).closest('.slideshow'),$(this).index());
+ });
+
+  $('.slideshow .pagination').on('check',function(){
+   var slideshow=$(this).closest('.slideshow');
+   var pages=$(this).find('.item');
+   var index=slideshow.find('.slides .is-active').index();
+   pages.removeClass('is-active');
+   pages.eq(index).addClass('is-active');
+ });
+
+ /* Lazyloading
+ $('.slideshow').each(function(){
+   var slideshow=$(this);
+   var images=slideshow.find('.image').not('.is-loaded');
+   images.on('loaded',function(){
+     var image=$(this);
+     var slide=image.closest('.slide');
+     slide.addClass('is-loaded');
+   });
+ */
+
+ var timeout=setTimeout(function(){
+   slideshowNext(slideshow,false,true);
+ },slideshowDuration);
+
+ slideshow.data('timeout',timeout);
+ });
+
+ if($('.main-content .slideshow').length > 1) {
+   $(window).on('scroll',homeSlideshowParallax);
+ }
+
+</script>
+
+
+
+
+
+<script>
+
+	var CartContainer = document.getElementById("customers");
+
+	GetCartItems()
+	async function GetCartItems() {
+	
+
+		const response = await fetch(`http://127.0.0.1:5678/api/cart`);
+		const cartList = await response.json();
+		console.log(cartList)
+
+		for (let i = 0; i < cartList.length; i++) {
+			let image = cartList[i]["product_id"]["image"];
+			let link = cartList[i]["product_id"]["link"];
+			let name = cartList[i]["product_id"]["name"];
+			let price = cartList[i]["product_id"]["price"];
+			let product_id = cartList[i]["product_id"]["product_id"];
+			let rating = cartList[i]["product_id"]["rating"];
+			let stars = cartList[i]["product_id"]["stars"];
+
+			proudect = `
+			<tr>
+				<td>
+				<div class="wish-item">
+					<i class="fa fa-trash-o" aria-hidden="true"></i>
+					<img src="${image}" class="wish-item-img">
+				</div></td>
+				<td class="wish-text">${name}</td>
+				<td class="wish-text">$ ${price}</td>
+				<td class="wish-text">In Stock</td>
+				<td>
+					<a href="${link}">
+				<button class="wish-button" fdprocessedid="jpxp2">
+					</a>
+			Buy
+			</button>
+				</td>
+			</tr>
+			`
+
+			
+			CartContainer.innerHTML += proudect;
+			
+		}
+
+	}
+
+
+
+</script>
+
+
+
+  </body>
+  </html>

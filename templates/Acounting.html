@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="/static/styesheet2.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis:800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/3ce4fce0e0.js"></script>
+
+  <title>Sign-in - Home</title>
+</head>
+
+<body id="home">
+  <script src="https://accounts.google.com/gsi/client" async></script>
+  <div class="header" id="headerhome">
+    <div>
+      <a id="logo1" onClick="window.location.href='index.html'"><img class="logowb"></a>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="container">
+    <input type="checkbox" id="check" />
+    <div class="login form">
+      <header>Login</header>
+      <form action="/login" method="post">
+        <label style="color: crimson;">{{ error }}</label>
+        <input class="text" placeholder="Enter your email" name="email" required />
+        <input class="password" placeholder="Enter your password" name="password" required />
+        <a href="#">Forgot password?</a>
+        <input type="submit" class="button" value="Login" id="login" />
+      </form>
+      <div class="signup">
+        <br>
+        <span class="signup">Don't have an account?<label for="check">   Signup</label></span>
+      </div>
+      <p style="color:grey; text-align: center;">or</p>
+
+      <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+      data-login_uri="https://your.domain/your_login_endpoint" data-auto_prompt="false">
+    </div>
+    
+    <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with"
+      data-shape="rectangular" data-logo_alignment="left">
+    </div>
+      <!-- <button type="button" class="login-with-google-btn">
+        Sign in with Google
+      </button> -->
+
+
+
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="/register" method="post">
+        <label style="color: crimson;">{{ error }}</label>
+        <input class="text" placeholder="Enter your name" id="Name" name="name" value="{{ name }}" required />
+
+        <input class="text" placeholder="Enter your email" id="email" name="email" value="{{ email }}" required />
+        
+        <input class="text" placeholder="Enter your phone number" id="name" name="phone" value="{{ phone }}" required />
+        <input class="password" placeholder="Create a password" id="password" name="password" required />
+        <input class="password" placeholder="Confirm your password" id="confirmPassword" name="confirmPassword"
+          required />
+       
+        <input type="submit" class="button" value="Signup" id="register" />
+      
+      </form>
+      <div class="signup">
+        <br>
+        <span class="signup">Already have an account?  
+          <label for="check">Login</label>
+        </span>
+        <p style="color:grey; text-align: center;">or</p>
+
+        
+        <div id="g_id_onload" data-client_id="YOUR_GOOGLE_CLIENT_ID"
+          data-login_uri="https://your.domain/your_login_endpoint" data-auto_prompt="false">
+        </div>
+        
+        <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with"
+          data-shape="rectangular" data-logo_alignment="left">
+        </div>
+
+
+        <!-- <button type="button" class="login-with-google-btn" >
+                    Sign up with Google
+                  </button> -->
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("headerhome").style.height = "58px";
+        document.getElementById("headerhome").style.backgroundColor = "black";
+        document.getElementById("logo1").style.backgroundSize = "60px";
+        document.getElementById("logo1").style.marginTop = "5px";
+        document.getElementById("logo1").style.backgroundImage = "url('/static/whitelogo.png')";
+        document.getElementById("topnavhome").style.marginTop = "-15px";
+        document.getElementById("topa1").style.paddingBottom = "15px";
+        document.getElementById("topc1").style.paddingBottom = "22px";
+        document.getElementById("topd1").style.paddingBottom = "11px";
+        document.getElementById("topf1").style.paddingBottom = "11px";
+        document.getElementById("tope1").style.paddingBottom = "15px";
+        document.getElementById("topa1").style.color = "white";
+        document.getElementById("topc1").style.color = "white";
+        document.getElementById("topd1").style.color = "white";
+        document.getElementById("tope1").style.color = "white";
+        document.getElementById("topf1").style.color = "white";
+        document.getElementById("container44").style.marginTop = "10px";
+        document.getElementById("bar1").style.background = "white";
+        document.getElementById("bar2").style.background = "white";
+        document.getElementById("bar3").style.background = "white";
+      } else {
+        document.getElementById("headerhome").style.height = "88px";
+        document.getElementById("headerhome").style.backgroundColor = "transparent";
+        document.getElementById("logo1").style.backgroundSize = "105px";
+        document.getElementById("logo1").style.marginTop = "-10px";
+        document.getElementById("logo1").style.backgroundImage = "url('/static/blacklogo.png')";
+        document.getElementById("topnavhome").style.marginTop = "0";
+        document.getElementById("topa1").style.paddingBottom = "30px";
+        document.getElementById("topc1").style.paddingBottom = "39px";
+        document.getElementById("topd1").style.paddingBottom = "29px";
+        document.getElementById("topf1").style.paddingBottom = "29px";
+        document.getElementById("tope1").style.paddingBottom = "30px";
+        document.getElementById("topa1").style.color = "black";
+        document.getElementById("topc1").style.color = "black";
+        document.getElementById("topd1").style.color = "black";
+        document.getElementById("tope1").style.color = "black";
+        document.getElementById("topf1").style.color = "black";
+        document.getElementById("container44").style.marginTop = "25px";
+        document.getElementById("bar1").style.background = "black";
+        document.getElementById("bar2").style.background = "black";
+        document.getElementById("bar3").style.background = "black";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
