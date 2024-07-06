@@ -2,10 +2,10 @@
   "smtp_server": "smtp.gmail.com",
   "sender_email": "www.yyalgol@gmail.com",
   "password": "rosz sveh tuzh fvxb",
-  "db_name": "PriceComparison",
-  "db_user": "root",
-  "db_password": "",
-  "db_host": "localhost",
+  "db_name": "freedb_project",
+  "db_user": "freedb_GtySSYoussef",
+  "db_password": "#a4*v7mz!hcNDcH",
+  "db_host": "sql.freedb.tech",
   "db_port": 3306,
   "db_charset": "utf8mb4"
 }
